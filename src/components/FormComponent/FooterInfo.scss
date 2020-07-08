@@ -1,0 +1,46 @@
+@import '../../variable';
+
+.bottom-links,
+.section-login-bottom-links {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 25px;
+  padding: 0 17px;
+  width: 320px;
+  @media (min-width: 400px) {
+    width: 350px;
+  }
+
+  a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: $color-grey-sec;
+    text-align: center;
+    transition: 0.2s ease;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: $color-blue;
+    transition: 0.2s ease;
+  }
+}
+.airrates {
+  .bottom-links,
+  .section-login-bottom-links {
+    a:hover {
+      color: $color-air;
+    }
+  }
+}
+.landrates {
+  .bottom-links,
+  .section-login-bottom-links {
+    a:hover {
+      color: $color-land;
+    }
+  }
+}

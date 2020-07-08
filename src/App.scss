@@ -1,0 +1,32 @@
+@import 'variable';
+
+footer {
+  display: none !important;
+}
+.main-content {
+  padding-bottom: 0;
+}
+
+.section-login {
+  position: relative;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: $color-white;
+
+  .content {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 510px;
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0 30px;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      padding: 0 17px;
+      align-items: center;
+    }
+  }
+}

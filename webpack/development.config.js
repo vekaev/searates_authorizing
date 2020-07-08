@@ -24,7 +24,8 @@ module.exports = function({
       contentBase: publicPath,
       compress: true,
       hot: true,
-      port: 3000
+      port: 3000,
+      historyApiFallback: true,
     },
     plugins: [
       // clean previous build files

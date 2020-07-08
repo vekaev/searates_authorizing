@@ -1,0 +1,43 @@
+@import '../../variable';
+
+.agree-terms {
+  max-width: 280px;
+  text-align: center;
+  display: block;
+  margin: 10px auto 0;
+  width: 100%;
+
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+
+    a {
+      margin-left: 3px;
+    }
+  }
+
+  a:hover {
+    color: $color-blue;
+  }
+}
+
+.airrates-agree-terms {
+  a {
+    color: $color-air;
+  }
+  a:hover {
+    color: $color-air;
+  }
+}
+
+.landrates-agree-terms {
+  a {
+    color: $color-land;
+  }
+  a:hover {
+    color: $color-land;
+  }
+}

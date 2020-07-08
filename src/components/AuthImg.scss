@@ -1,0 +1,27 @@
+@import '../variable';
+
+.sign-img {
+  @media (max-width: 1000px) {
+    top: -140px;
+  }
+  @media (max-width: 768px) {
+    max-width: 300px;
+    top: -30px;
+    top: -80px;
+    max-height: 350px;
+  }
+  @media (max-width: 500px) {
+    display: none;
+  }
+  position: relative;
+  top: -240px;
+  max-width: 600px;
+  max-height: 830px;
+  bottom: 0;
+  width: 100%;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}

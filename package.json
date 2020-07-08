@@ -29,8 +29,6 @@
     "postcss-loader": "^3.0.0",
     "prettier": "^2.0.5",
     "prettier-webpack-plugin": "^1.2.0",
-    "redux-devtools-extension": "^2.13.8",
-    "redux-immutable-state-invariant": "^2.1.0",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
     "terser-webpack-plugin": "^1.4.4",
@@ -39,11 +37,15 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-redux": "^7.2.0",
+    "react-google-recaptcha": "^2.0.1",
+    "react-google-recaptcha-v3": "^1.5.2",
+    "react-hook-form": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
+    "style-loader": "^1.1.3"
   }
 }

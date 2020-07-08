@@ -1,0 +1,84 @@
+@import '../variable';
+
+.section-cerrier-descrp {
+  padding-top: 200px;
+  max-width: 540px;
+  width: 100%;
+  @media (max-width: 768px) {
+    padding-top: 0;
+    max-width: 360px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  &-title {
+    max-width: 455px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 23px;
+    letter-spacing: 0.3px;
+
+    span {
+      color: $color-blue;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 23px;
+      line-height: 29px;
+      margin-bottom: 10px;
+    }
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    margin-bottom: 5px;
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+
+  b {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.airrates {
+  .section-cerrier-descrp {
+    &-title {
+      span {
+        color: $color-air;
+      }
+    }
+    b {
+      a {
+        color: $color-air;
+      }
+    }
+  }
+}
+.landrates {
+  .section-cerrier-descrp {
+    &-title {
+      span {
+        color: $color-land;
+      }
+    }
+    b {
+      a {
+        color: $color-land;
+      }
+    }
+  }
+}
